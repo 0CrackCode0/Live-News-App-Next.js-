@@ -1,21 +1,64 @@
-**📰 News Aggregator App**
+# News Aggregator App
 
-A modern news web application built with Next.js that fetches and displays real-time news from external APIs. The app provides a smooth and responsive reading experience with infinite scrolling, category filtering, and fast performance.
+A news application built with Next.js that fetches and displays the latest news from external APIs. The app offers a clean reading experience with category-based filtering, infinite scrolling, and a responsive interface.
 
-**🚀 Features**
-🗞️ Real-time news from external API sources
-♾️ Infinite scrolling for seamless browsing
-📂 Category-based news filtering (Tech, Sports, Business, etc.)
-⚡ Fast performance using Next.js
-📱 Fully responsive design for all devices
-🧭 Clean and minimal UI for better readability
-🔍 Easy navigation between news sections
-🛠️ Tech Stack
-Next.js – Frontend framework
-React – UI components
-JavaScript (ES6+) – Logic
-react-infinite-scroll-component – Infinite scrolling
+## Features
 
-run project : npm run dev
+* Real-time news updates from external APIs
+* Infinite scrolling for continuous browsing
+* Category-based news filtering
+* Fast performance with Next.js
+* Responsive design for desktop and mobile devices
+* Clean and user-friendly interface
+* Easy navigation across news categories
 
-Any Query? : 0ab.ahad0@gmail.com
+## Tech Stack
+
+* Next.js
+* React
+* JavaScript (ES6+)
+* react-infinite-scroll-component
+
+## Installation
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run the Development Server
+
+```bash
+npm run dev
+```
+
+## Local Development
+
+Open your browser and visit:
+
+```text
+http://localhost:3000
+```
+
+## Notes
+
+* News data is fetched from external news APIs.
+* An API key may be required depending on the news service being used.
+* Ensure environment variables are configured if required by the API provider.
+
+## Future Improvements
+
+* Search functionality
+* Bookmark favorite articles
+* Dark mode support
+* User authentication
+* Personalized news recommendations
+
+## License
+
+This project is open-source and available under the MIT License.
+
+## Author
+Abdul Ahad
+0ab.ahad0@gmail.com
